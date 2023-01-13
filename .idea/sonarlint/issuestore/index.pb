@@ -1,12 +1,8 @@
 
-h
-8src/main/java/com/algaworks/ecommerce/model/Estoque.java,0\1\01b74b767c3abf50ca011beee6542a0fbb9bccc6
 l
 <src/test/java/com/algaworks/ecommerce/EntityManagerTest.java,a\3\a38649c78c35c6c15529fe201e889ad3fdef19de
 n
 >src/main/java/com/algaworks/ecommerce/model/GeneroCliente.java,9\c\9c1f200159aaf551357b21a7d3395fb5b6741399
-k
-;src/main/java/com/algaworks/ecommerce/model/ItemPedido.java,3\d\3dd050fd4d9cbafb88eb8bf33f5583031ff02e5e
 m
 =src/main/java/com/algaworks/ecommerce/model/StatusPedido.java,b\3\b33164c7c9a9989bbe19b76b2ff06319edc88504
 ‚
