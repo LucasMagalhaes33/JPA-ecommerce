@@ -4,15 +4,17 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.util.Objects;
+import javax.persistence.Table;
 
 @Entity
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class Cliente {
+@Table(name = "categoria")
+public class Categoria {
 
     @EqualsAndHashCode.Include
     @Id
@@ -20,5 +22,6 @@ public class Cliente {
 
     private String nome;
 
-    private GeneroCliente generoCliente;
+    @Column(name = "categoria_pai_id")
+    private Integer categoriaPaiId;
 }
