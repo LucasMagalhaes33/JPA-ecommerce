@@ -23,5 +23,3 @@ j
 :src/main/java/com/algaworks/ecommerce/model/Categoria.java,b\a\ba2cf89026347110547f876bdd28fa41cdc7acab
 …
 Usrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java,f\5\f5084a33414121e85e50366dd406ef487e915ca7
-†
-Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java,2\6\2617bb60d37b0a371605fcf01a0834ab51c57bcb

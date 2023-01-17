@@ -1,4 +1,4 @@
-package com.algaworks.ecommerce.relacionamentos;
+package com.algaworks.ecommerce.conhecendoEntityManager;
 
 import com.algaworks.ecommerce.EntityManagerTest;
 import com.algaworks.ecommerce.model.Cliente;
@@ -7,30 +7,32 @@ import com.algaworks.ecommerce.model.StatusPedido;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
-
-public class RelacionamentoManyToOneTest extends EntityManagerTest {
+public class CallbacksTest extends EntityManagerTest {
 
     @Test
-    public void verificarRelacionamento(){
+    public void acionarCallbacks(){
         Cliente cliente = entityManager.find(Cliente.class, 1);
 
         Pedido pedido = new Pedido();
 
-        pedido.setStatus(StatusPedido.AGUARDANDO);
-        pedido.setDataCriacao(LocalDateTime.now());
         pedido.setCliente(cliente);
-        pedido.setTotal(BigDecimal.TEN);
+        pedido.setStatus(StatusPedido.AGUARDANDO);
 
         entityManager.getTransaction().begin();
+
         entityManager.persist(pedido);
+        entityManager.flush();
+
+        pedido.setStatus(StatusPedido.PAGO);
+
         entityManager.getTransaction().commit();
 
         entityManager.clear();
 
         Pedido pedidoVerificacao = entityManager.find(Pedido.class, pedido.getId());
-        Assert.assertNotNull(pedidoVerificacao.getCliente());
+        Assert.assertNotNull(pedidoVerificacao.getDataCriacao());
+        Assert.assertNotNull(pedidoVerificacao.getDataUltimaAtualizacao());
+
     }
 
 }

@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/EagerLazyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/CachePrimeiroNivelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/CallbacksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ChamarFlushTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ContextoDePersistenciaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/GerenciamentoTransacoesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,12 +76,61 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
       <recent name="com.algaworks.ecommerce.relacionamentos" />
       <recent name="com.algaworks.ecommerce.model" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MapeamentoObjetoEmbutidoTest.analisarMapeamentoObjetoEmbutido">
+  <component name="RunManager" selected="JUnit.CallbacksTest.acionarCallbacks">
+    <configuration name="CachePrimeiroNivelTest.verificarCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.conhecendoEntityManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.conhecendoEntityManager" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.conhecendoEntityManager.CachePrimeiroNivelTest" />
+      <option name="METHOD_NAME" value="verificarCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CallbacksTest.acionarCallbacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.conhecendoEntityManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.conhecendoEntityManager" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.conhecendoEntityManager.CallbacksTest" />
+      <option name="METHOD_NAME" value="acionarCallbacks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChamarFlushTest.chamarFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.conhecendoEntityManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.conhecendoEntityManager" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.conhecendoEntityManager.ChamarFlushTest" />
+      <option name="METHOD_NAME" value="chamarFlush" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EagerLazyTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -113,61 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoManyToMany.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentos.RelacionamentoManyToMany" />
-      <option name="METHOD_NAME" value="verificarRelacionamento" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelacionamentoOneToOneTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentos.RelacionamentoOneToOneTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamento" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelacionamentoOneToOneTest.verificarRelacionamentoNotaPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentos.RelacionamentoOneToOneTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamentoNotaPedido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CallbacksTest.acionarCallbacks" />
+        <item itemvalue="JUnit.ChamarFlushTest.chamarFlush" />
+        <item itemvalue="JUnit.CachePrimeiroNivelTest.verificarCache" />
         <item itemvalue="JUnit.MapeamentoObjetoEmbutidoTest.analisarMapeamentoObjetoEmbutido" />
         <item itemvalue="JUnit.EagerLazyTest.verificarRelacionamento" />
-        <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamentoNotaPedido" />
-        <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamento" />
-        <item itemvalue="JUnit.RelacionamentoManyToMany.verificarRelacionamento" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673918718868</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding optionals to all classes">
+      <created>1673964100100</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673964100100</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,6 +266,7 @@
     <MESSAGE value="adding relation ManyToMany at Classes Produto e Categoria" />
     <MESSAGE value="adding relation OneToOne at Classes PagamentoCartao e Pedido" />
     <MESSAGE value="adding relation OneToOne at Classes NotaFiscal e Pedido" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding relation OneToOne at Classes NotaFiscal e Pedido" />
+    <MESSAGE value="adding optionals to all classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding optionals to all classes" />
   </component>
 </project>
