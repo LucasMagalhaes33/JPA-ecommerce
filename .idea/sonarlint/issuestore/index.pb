@@ -13,3 +13,15 @@ Tsrc/test/java/com/algaworks/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 p
 @src/main/java/com/algaworks/ecommerce/model/StatusPagamento.java,9\2\92c2bdc382e03e9b85184a6363917c54bf9142d4
+h
+8src/main/java/com/algaworks/ecommerce/model/Cliente.java,2\c\2cdd1e14781c3677ee9eed4a4eff84ce8293303e
+Å
+Qsrc/test/java/com/algaworks/ecommerce/relacionamentos/AutoRelacionamentoTest.java,a\9\a9b0cbfc5adc68553532cf0153bbe825e9ac7789
+É
+Ssrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToMany.java,3\e\3e18494a6004fb968e642e220fe515837d22869e
+j
+:src/main/java/com/algaworks/ecommerce/model/Categoria.java,b\a\ba2cf89026347110547f876bdd28fa41cdc7acab
+Ö
+Usrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java,f\5\f5084a33414121e85e50366dd406ef487e915ca7
+Ü
+Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java,2\6\2617bb60d37b0a371605fcf01a0834ab51c57bcb
