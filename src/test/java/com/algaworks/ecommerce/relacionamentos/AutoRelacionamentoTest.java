@@ -1,10 +1,7 @@
 package com.algaworks.ecommerce.relacionamentos;
 
 import com.algaworks.ecommerce.EntityManagerTest;
-import com.algaworks.ecommerce.model.Categoria;
-import com.algaworks.ecommerce.model.Cliente;
-import com.algaworks.ecommerce.model.Pedido;
-import com.algaworks.ecommerce.model.StatusPedido;
+import com.algaworks.ecommerce.model.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -14,13 +11,14 @@ import java.time.LocalDateTime;
 public class AutoRelacionamentoTest extends EntityManagerTest {
 
     @Test
-    public void verificarRelacionamento(){
+    public void verificarRelacionamento() {
         Categoria categoriaPai = new Categoria();
         categoriaPai.setNome("Eletrônicos");
 
         Categoria categoria = new Categoria();
         categoria.setNome("Celulares");
         categoria.setCategoriaPai(categoriaPai);
+
 
         entityManager.getTransaction().begin();
         entityManager.persist(categoriaPai);
@@ -34,7 +32,5 @@ public class AutoRelacionamentoTest extends EntityManagerTest {
 
         Categoria categoriaPaiVerificacao = entityManager.find(Categoria.class, categoriaPai.getId());
         Assert.assertFalse(categoriaPaiVerificacao.getCategorias().isEmpty());
-
     }
-
 }

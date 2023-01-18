@@ -1,30 +1,36 @@
-package com.algaworks.ecommerce.conhecendoEntityManager;
+package com.algaworks.ecommerce.conhecendoentitymanager;
 
 import com.algaworks.ecommerce.EntityManagerTest;
-import com.algaworks.ecommerce.model.Pedido;
-import com.algaworks.ecommerce.model.StatusPedido;
+import com.algaworks.ecommerce.model.Produto;
 import org.junit.Test;
+
+import java.math.BigDecimal;
 
 public class ContextoDePersistenciaTest extends EntityManagerTest {
 
-    @Test(expected = Exception.class)
-    public void chamarFlush(){
-        try {
-            entityManager.getTransaction().begin();
-            Pedido pedido = entityManager.find(Pedido.class, 1);
-            pedido.setStatus(StatusPedido.PAGO);
+    @Test
+    public void usarContextoPersistencia() {
+        entityManager.getTransaction().begin();
 
-            entityManager.flush();
+        Produto produto = entityManager.find(Produto.class, 1);
+        produto.setPreco(new BigDecimal(100.0));
 
-            if (pedido.getPagamento() == null) {
-                throw new RuntimeException("Pedido ainda nao foi pago");
-            }
+        Produto produto2 = new Produto();
+        produto2.setNome("Caneca para café");
+        produto2.setPreco(new BigDecimal(10.0));
+        produto2.setDescricao("Boa caneca para café");
+        entityManager.persist(produto2);
 
-            entityManager.getTransaction().commit();
-        } catch (Exception e){
-            entityManager.getTransaction().rollback();
-            throw e;
-        }
+        Produto produto3 = new Produto();
+        produto3.setNome("Caneca para chá");
+        produto3.setPreco(new BigDecimal(10.0));
+        produto3.setDescricao("Boa caneca para chá");
+        produto3 = entityManager.merge(produto3);
+
+        entityManager.flush();
+
+        produto3.setDescricao("Alterar descrição");
+
+        entityManager.getTransaction().commit();
     }
-
 }

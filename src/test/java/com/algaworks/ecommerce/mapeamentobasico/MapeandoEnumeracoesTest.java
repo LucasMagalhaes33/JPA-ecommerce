@@ -2,19 +2,18 @@ package com.algaworks.ecommerce.mapeamentobasico;
 
 import com.algaworks.ecommerce.EntityManagerTest;
 import com.algaworks.ecommerce.model.Cliente;
-import com.algaworks.ecommerce.model.GeneroCliente;
+import com.algaworks.ecommerce.model.SexoCliente;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class MapeandoEnumeracoesTest extends EntityManagerTest {
 
     @Test
-    public void testarEnum(){
+    public void testarEnum() {
         Cliente cliente = new Cliente();
-
-        cliente.setId(4);
+//        cliente.setId(4); Comentado porque estamos utilizando IDENTITY
         cliente.setNome("José Mineiro");
-        cliente.setGeneroCliente(GeneroCliente.Masculino);
+        cliente.setSexo(SexoCliente.MASCULINO);
 
         entityManager.getTransaction().begin();
         entityManager.persist(cliente);
@@ -24,7 +23,5 @@ public class MapeandoEnumeracoesTest extends EntityManagerTest {
 
         Cliente clienteVerificacao = entityManager.find(Cliente.class, cliente.getId());
         Assert.assertNotNull(clienteVerificacao);
-
     }
-
 }

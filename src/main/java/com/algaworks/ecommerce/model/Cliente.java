@@ -6,12 +6,11 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.Objects;
 
-@Entity
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Entity
 @Table(name = "cliente")
 public class Cliente {
 
@@ -23,9 +22,8 @@ public class Cliente {
     private String nome;
 
     @Enumerated(EnumType.STRING)
-    private GeneroCliente generoCliente;
+    private SexoCliente sexo;
 
     @OneToMany(mappedBy = "cliente")
     private List<Pedido> pedidos;
-
 }

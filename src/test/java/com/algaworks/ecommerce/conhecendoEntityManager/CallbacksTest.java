@@ -1,4 +1,4 @@
-package com.algaworks.ecommerce.conhecendoEntityManager;
+package com.algaworks.ecommerce.conhecendoentitymanager;
 
 import com.algaworks.ecommerce.EntityManagerTest;
 import com.algaworks.ecommerce.model.Cliente;
@@ -10,7 +10,7 @@ import org.junit.Test;
 public class CallbacksTest extends EntityManagerTest {
 
     @Test
-    public void acionarCallbacks(){
+    public void acionarCallbacks() {
         Cliente cliente = entityManager.find(Cliente.class, 1);
 
         Pedido pedido = new Pedido();
@@ -24,7 +24,6 @@ public class CallbacksTest extends EntityManagerTest {
         entityManager.flush();
 
         pedido.setStatus(StatusPedido.PAGO);
-
         entityManager.getTransaction().commit();
 
         entityManager.clear();
@@ -32,7 +31,5 @@ public class CallbacksTest extends EntityManagerTest {
         Pedido pedidoVerificacao = entityManager.find(Pedido.class, pedido.getId());
         Assert.assertNotNull(pedidoVerificacao.getDataCriacao());
         Assert.assertNotNull(pedidoVerificacao.getDataUltimaAtualizacao());
-
     }
-
 }

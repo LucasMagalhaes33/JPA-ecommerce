@@ -6,10 +6,10 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Entity
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Entity
 @Table(name = "pagamento_boleto")
 public class PagamentoBoleto {
 
@@ -26,5 +26,4 @@ public class PagamentoBoleto {
 
     @Column(name = "codigo_barras")
     private String codigoBarras;
-
 }
