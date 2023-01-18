@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/CachePrimeiroNivelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/CallbacksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ChamarFlushTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ContextoDePersistenciaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/GerenciamentoTransacoesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancado/DetalhesColumnTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CallbacksTest.acionarCallbacks">
+  <component name="RunManager" selected="JUnit.DetalhesColumnTest.impedirAtualizacaoDaColunaCriacao">
     <configuration name="CachePrimeiroNivelTest.verificarCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -131,33 +126,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EagerLazyTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetalhesColumnTest.impedirAtualizacaoDaColunaCriacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentos.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentos.EagerLazyTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamento" />
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancado" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancado.DetalhesColumnTest" />
+      <option name="METHOD_NAME" value="impedirAtualizacaoDaColunaCriacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapeamentoObjetoEmbutidoTest.analisarMapeamentoObjetoEmbutido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DetalhesColumnTest.impedirInsercaoDaColunaAtualizacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentobasico.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentobasico" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentobasico.MapeamentoObjetoEmbutidoTest" />
-      <option name="METHOD_NAME" value="analisarMapeamentoObjetoEmbutido" />
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancado" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancado.DetalhesColumnTest" />
+      <option name="METHOD_NAME" value="impedirInsercaoDaColunaAtualizacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DetalhesColumnTest.impedirAtualizacaoDaColunaCriacao" />
+        <item itemvalue="JUnit.DetalhesColumnTest.impedirInsercaoDaColunaAtualizacao" />
         <item itemvalue="JUnit.CallbacksTest.acionarCallbacks" />
         <item itemvalue="JUnit.ChamarFlushTest.chamarFlush" />
         <item itemvalue="JUnit.CachePrimeiroNivelTest.verificarCache" />
-        <item itemvalue="JUnit.MapeamentoObjetoEmbutidoTest.analisarMapeamentoObjetoEmbutido" />
-        <item itemvalue="JUnit.EagerLazyTest.verificarRelacionamento" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673964100100</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding callbacks to Class Pedido">
+      <created>1673988926705</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673988926705</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +269,7 @@
     <MESSAGE value="adding relation OneToOne at Classes PagamentoCartao e Pedido" />
     <MESSAGE value="adding relation OneToOne at Classes NotaFiscal e Pedido" />
     <MESSAGE value="adding optionals to all classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding optionals to all classes" />
+    <MESSAGE value="adding callbacks to Class Pedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding callbacks to Class Pedido" />
   </component>
 </project>
