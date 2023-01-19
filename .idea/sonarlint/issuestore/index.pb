@@ -41,8 +41,6 @@ p
 Usrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java,f\5\f5084a33414121e85e50366dd406ef487e915ca7
 Å
 Qsrc/test/java/com/algaworks/ecommerce/relacionamentos/AutoRelacionamentoTest.java,a\9\a9b0cbfc5adc68553532cf0153bbe825e9ac7789
-h
-8src/main/java/com/algaworks/ecommerce/model/Produto.java,f\9\f9f72a877f35dc0cc2c588e0d02efaf8703a19a6
 w
 G.idea/sonarlint/issuestore/c/0/c0e12d516cf36a2c3726a347d8badb60d8821fba,4\a\4ac6a80dd0c4213c769a5845380bfc60e04e46d6
 w
