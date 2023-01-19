@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/nota-fiscal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,31 +53,34 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2JBdoigHgEelfSPMLK93GdJgmmy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/Documents/algaworks-ecommerce&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/Lucas/Documents/algaworks-ecommerce",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algaworks.ecommerce.mapeamentoavancao" />
       <recent name="com.algaworks.ecommerce.mapeamentoavancado" />
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
       <recent name="com.algaworks.ecommerce.relacionamentos" />
       <recent name="com.algaworks.ecommerce.model" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElementCollectionTest.aplicarContato">
+  <component name="RunManager" selected="JUnit.SalvandoArquivosTest.salvarItem">
     <configuration name="ElementCollectionTest.aplicarAtributos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -141,17 +145,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoOneToManyTest.verificarRelacionamentoPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalvandoArquivosTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentos.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentos.RelacionamentoOneToManyTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamentoPedido" />
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.SalvandoArquivosTest" />
+      <option name="METHOD_NAME" value="salvarItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalvandoArquivosTest.salvarItem" />
         <item itemvalue="JUnit.ElementCollectionTest.aplicarContato" />
         <item itemvalue="JUnit.ElementCollectionTest.aplicarAtributos" />
         <item itemvalue="JUnit.ElementCollectionTest.aplicarTags" />
         <item itemvalue="JUnit.PropriedadesTransientesTest.validarPrimeiroNome" />
-        <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamentoPedido" />
       </list>
     </recent_temporary>
   </component>
@@ -303,10 +307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1674140602045</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add Map atribute to Cliente">
+      <created>1674151445490</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674151445490</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add embbed objects to Pedido Class" />
     <MESSAGE value="test simple mapping" />
     <MESSAGE value="test sequence table" />
@@ -323,6 +335,7 @@
     <MESSAGE value="add EmbbedId to get two fk_id at ItemPedido" />
     <MESSAGE value="add Transient to Cliente" />
     <MESSAGE value="add Atributo table to Produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Atributo table to Produto" />
+    <MESSAGE value="add Map atribute to Cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Map atribute to Cliente" />
   </component>
 </project>

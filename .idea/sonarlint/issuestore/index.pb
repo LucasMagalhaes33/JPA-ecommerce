@@ -37,8 +37,6 @@ p
 @src/main/java/com/algaworks/ecommerce/model/StatusPagamento.java,9\2\92c2bdc382e03e9b85184a6363917c54bf9142d4
 ç
 ]src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/ContextoDePersistenciaTest.java,9\b\9b431c67e053506e7570142eaed787bbcf5c971c
-Ö
-Usrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java,f\5\f5084a33414121e85e50366dd406ef487e915ca7
 Å
 Qsrc/test/java/com/algaworks/ecommerce/relacionamentos/AutoRelacionamentoTest.java,a\9\a9b0cbfc5adc68553532cf0153bbe825e9ac7789
 w
