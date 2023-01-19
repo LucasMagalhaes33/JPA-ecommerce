@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Atributo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,23 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElementCollectionTest.aplicarAtributos">
-    <configuration name="ChaveCompostaTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.ChaveCompostaTest" />
-      <option name="METHOD_NAME" value="salvarItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ElementCollectionTest.aplicarContato">
     <configuration name="ElementCollectionTest.aplicarAtributos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -106,6 +88,22 @@
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.ElementCollectionTest" />
       <option name="METHOD_NAME" value="aplicarAtributos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementCollectionTest.aplicarContato" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.ElementCollectionTest" />
+      <option name="METHOD_NAME" value="aplicarContato" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElementCollectionTest.aplicarContato" />
         <item itemvalue="JUnit.ElementCollectionTest.aplicarAtributos" />
         <item itemvalue="JUnit.ElementCollectionTest.aplicarTags" />
         <item itemvalue="JUnit.PropriedadesTransientesTest.validarPrimeiroNome" />
         <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamentoPedido" />
-        <item itemvalue="JUnit.ChaveCompostaTest.salvarItem" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674137552858</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add Atributo table to Produto">
+      <created>1674140602045</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674140602045</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -317,6 +322,7 @@
     <MESSAGE value="add IdClass to ItemPedido" />
     <MESSAGE value="add EmbbedId to get two fk_id at ItemPedido" />
     <MESSAGE value="add Transient to Cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Transient to Cliente" />
+    <MESSAGE value="add Atributo table to Produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Atributo table to Produto" />
   </component>
 </project>
