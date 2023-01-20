@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="add Map atribute to Cliente">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SecondaryTableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="add SecondaryTable at Cliente">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/HerancaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +94,7 @@
       <recent name="com.algaworks.ecommerce.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecondaryTableTest.salvarItem">
+  <component name="RunManager" selected="JUnit.HerancaTest.salvarItem">
     <configuration name="IniciarUnidadeDePersistencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.util.IniciarUnidadeDePersistencia" />
       <module name="JPA-ecommerce" />
@@ -103,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementCollectionTest.aplicarContato" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
+    <configuration name="HerancaTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPA-ecommerce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
@@ -112,8 +117,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.ElementCollectionTest" />
-      <option name="METHOD_NAME" value="aplicarContato" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.HerancaTest" />
+      <option name="METHOD_NAME" value="salvarItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HerancaTest.salvarItem" />
         <item itemvalue="JUnit.SecondaryTableTest.salvarItem" />
         <item itemvalue="JUnit.SalvandoArquivosTest.salvarFotoProduto" />
         <item itemvalue="Application.IniciarUnidadeDePersistencia" />
         <item itemvalue="JUnit.SalvandoArquivosTest.salvarItem" />
-        <item itemvalue="JUnit.ElementCollectionTest.aplicarContato" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671555587076</updated>
       <workItem from="1674235879257" duration="1897000" />
-      <workItem from="1674237944231" duration="1001000" />
+      <workItem from="1674237944231" duration="3121000" />
     </task>
     <task id="LOCAL-00001" summary="add embbed objects to Pedido Class">
       <created>1673569624785</created>
@@ -322,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674151445490</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add SecondaryTable at Cliente">
+      <created>1674240570164</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674240570164</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +370,7 @@
     <MESSAGE value="add Transient to Cliente" />
     <MESSAGE value="add Atributo table to Produto" />
     <MESSAGE value="add Map atribute to Cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Map atribute to Cliente" />
+    <MESSAGE value="add SecondaryTable at Cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SecondaryTable at Cliente" />
   </component>
 </project>
