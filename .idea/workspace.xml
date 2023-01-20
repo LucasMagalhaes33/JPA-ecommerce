@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/nota-fiscal.xml" afterDir="false" />
+    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="add Map atribute to Cliente">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SecondaryTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +51,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -60,17 +65,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/Lucas/Documents/algaworks-ecommerce",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/execute-Jhony/Documents/JPA-ecommerce&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.algaworks.ecommerce.mapeamentoavancao" />
@@ -80,19 +89,16 @@
       <recent name="com.algaworks.ecommerce.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SalvandoArquivosTest.salvarItem">
-    <configuration name="ElementCollectionTest.aplicarAtributos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
+  <component name="RunManager" selected="JUnit.SecondaryTableTest.salvarItem">
+    <configuration name="IniciarUnidadeDePersistencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.util.IniciarUnidadeDePersistencia" />
+      <module name="JPA-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.ElementCollectionTest" />
-      <option name="METHOD_NAME" value="aplicarAtributos" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementCollectionTest.aplicarTags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
+    <configuration name="SalvandoArquivosTest.salvarFotoProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPA-ecommerce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
@@ -122,24 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.ElementCollectionTest" />
-      <option name="METHOD_NAME" value="aplicarTags" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PropriedadesTransientesTest.validarPrimeiroNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.PropriedadesTransientesTest" />
-      <option name="METHOD_NAME" value="validarPrimeiroNome" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.SalvandoArquivosTest" />
+      <option name="METHOD_NAME" value="salvarFotoProduto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,13 +151,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondaryTableTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPA-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.SecondaryTableTest" />
+      <option name="METHOD_NAME" value="salvarItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SecondaryTableTest.salvarItem" />
+        <item itemvalue="JUnit.SalvandoArquivosTest.salvarFotoProduto" />
+        <item itemvalue="Application.IniciarUnidadeDePersistencia" />
         <item itemvalue="JUnit.SalvandoArquivosTest.salvarItem" />
         <item itemvalue="JUnit.ElementCollectionTest.aplicarContato" />
-        <item itemvalue="JUnit.ElementCollectionTest.aplicarAtributos" />
-        <item itemvalue="JUnit.ElementCollectionTest.aplicarTags" />
-        <item itemvalue="JUnit.PropriedadesTransientesTest.validarPrimeiroNome" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +186,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671555587076</updated>
+      <workItem from="1674235879257" duration="1897000" />
+      <workItem from="1674237944231" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="add embbed objects to Pedido Class">
       <created>1673569624785</created>
@@ -316,6 +324,20 @@
     </task>
     <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

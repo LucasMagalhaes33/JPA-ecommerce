@@ -44,6 +44,31 @@ public class SalvandoArquivosTest extends EntityManagerTest {
         }*/
     }
 
+    @Test
+    public void salvarFotoProduto() {
+        Produto produto = entityManager.find(Produto.class, 1);
+
+        produto.setImagem(carregarFoto());
+
+        entityManager.getTransaction().begin();
+        entityManager.persist(produto);
+        entityManager.getTransaction().commit();
+
+        entityManager.clear();
+
+        Produto produtoVerificacao =  entityManager.find(Produto.class, produto.getId());
+        Assert.assertNotNull(produto.getImagem());
+        Assert.assertTrue(produto.getImagem().length > 0);
+
+
+        try {
+            OutputStream out = new FileOutputStream(
+                    Files.createFile(Paths.get(System.getProperty("user.home") + "/jpg.jpg")).toFile());
+                    out.write(produtoVerificacao.getImagem());
+        } catch (Exception e){
+            throw new RuntimeException(e);
+        }
+    }
 
     private static byte[] carregarNotaFiscal() {
         try {
@@ -53,4 +78,14 @@ public class SalvandoArquivosTest extends EntityManagerTest {
             throw new RuntimeException(e);
         }
     }
+
+    private static byte[] carregarFoto() {
+        try {
+            return SalvandoArquivosTest.class.getResourceAsStream(
+                    "/foto-kindle.jpg").readAllBytes();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }
