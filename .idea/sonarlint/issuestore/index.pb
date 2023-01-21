@@ -32,8 +32,6 @@ Psrc/test/java/com/algaworks/ecommerce/conhecendoentitymanager/CallbacksTest.jav
 Ñ
 Tsrc/test/java/com/algaworks/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java,9\4\9431e5f9e6a7cc7fb22abc24d0931d7c049b8be6
 p
-@src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java,6\4\64d3bf008224c18233673a34668e7e4f753f902c
-p
 @src/main/java/com/algaworks/ecommerce/model/StatusPagamento.java,9\2\92c2bdc382e03e9b85184a6363917c54bf9142d4
 ç
 ]src/test/java/com/algaworks/ecommerce/conhecendoentitymanager/ContextoDePersistenciaTest.java,9\b\9b431c67e053506e7570142eaed787bbcf5c971c
