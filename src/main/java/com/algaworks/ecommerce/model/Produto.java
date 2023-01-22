@@ -14,7 +14,8 @@ import java.util.List;
 @Setter
 @EntityListeners({ GenericoListener.class })
 @Entity
-@Table(name = "produto")
+@Table(name = "produto", uniqueConstraints = { @UniqueConstraint(name = "uniq_nome", columnNames = "nome")},
+        indexes = { @Index(name = "idx_nome", columnList = "nome") })
 public class Produto extends EntidadeBaseInteger {
     @Column(name = "data_criacao", updatable = false)
     private LocalDateTime dataCriacao;

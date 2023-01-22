@@ -13,8 +13,6 @@ h
 8src/main/java/com/algaworks/ecommerce/model/Estoque.java,0\1\01b74b767c3abf50ca011beee6542a0fbb9bccc6
 {
 Ksrc/test/java/com/algaworks/ecommerce/iniciandocomjpa/PrimeiroCrudTest.java,0\f\0f384d5ca078bfd20c395b9a5da7da86d96d7883
-j
-:src/main/java/com/algaworks/ecommerce/model/Categoria.java,b\a\ba2cf89026347110547f876bdd28fa41cdc7acab
 ‡
 Wsrc/test/java/com/algaworks/ecommerce/mapeamentobasico/EstrategiaChavePrimariaTest.java,2\d\2d9f3a6811483522cb1720fe2719e2ff4ef99b41
 v
@@ -71,3 +69,9 @@ Osrc/test/java/com/algaworks/ecommerce/mapeamentoavancao/DetalhesColumnTest.java
 Xsrc/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java,2\2\2289331655d7851a22541fc5202a708fb084fff6
 l
 <src/test/java/com/algaworks/ecommerce/EntityManagerTest.java,a\3\a38649c78c35c6c15529fe201e889ad3fdef19de
+i
+9src/main/java/com/algaworks/ecommerce/model/Atributo.java,f\b\fb6f551c111220586abe6501c1d891d0e253167a
+k
+;src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java,c\2\c28384952daf2c6e4a323413cb6c2785aa4a5f4b
+
+Qsrc/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java,8\e\8e4d08dedd811f18f0560c915157d30c6b86444c

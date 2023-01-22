@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/ddl/DDLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,22 @@
       <recent name="com.algaworks.ecommerce.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HerancaTest">
+  <component name="RunManager" selected="JUnit.DDLTest">
+    <configuration name="DDLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.ddl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.ddl" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.ddl.DDLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HerancaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
@@ -135,22 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalvandoArquivosTest.salvarFotoProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.SalvandoArquivosTest" />
-      <option name="METHOD_NAME" value="salvarFotoProduto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SecondaryTableTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DDLTest" />
         <item itemvalue="JUnit.HerancaTest" />
         <item itemvalue="JUnit.HerancaTest.incluirPagamento" />
         <item itemvalue="JUnit.HerancaTest.salvarItem" />
         <item itemvalue="JUnit.SecondaryTableTest.salvarItem" />
-        <item itemvalue="JUnit.SalvandoArquivosTest.salvarFotoProduto" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674343484657</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="edit PagamentoBoleto and PagamentoCartao Class">
+      <created>1674414423325</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674414423325</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +389,7 @@
     <MESSAGE value="add SecondaryTable at Cliente" />
     <MESSAGE value="add HerancaTest to extends all id's class" />
     <MESSAGE value="add SingleTable to Pagamento" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SingleTable to Pagamento" />
+    <MESSAGE value="edit PagamentoBoleto and PagamentoCartao Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit PagamentoBoleto and PagamentoCartao Class" />
   </component>
 </project>
