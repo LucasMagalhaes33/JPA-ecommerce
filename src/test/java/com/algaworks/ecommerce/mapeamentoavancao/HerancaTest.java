@@ -5,16 +5,16 @@ import com.algaworks.ecommerce.model.*;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.time.LocalDate;
 import java.util.List;
 
 public class HerancaTest extends EntityManagerTest {
 
     @Test
-    public void salvarItem() {
+    public void salvarCliente() {
         Cliente cliente = new Cliente();
-
-        cliente.setNome("Clariça Finotti");
+        cliente.setNome("Fernanda Morais");
+        cliente.setSexo(SexoCliente.FEMININO);
+        cliente.setCpf("333");
 
         entityManager.getTransaction().begin();
         entityManager.persist(cliente);
@@ -27,19 +27,21 @@ public class HerancaTest extends EntityManagerTest {
     }
 
     @Test
-    public void buscarPagamentos(){
-        List<Pagamento> pagamentos = entityManager.createQuery("select p from Pagamento p").getResultList();
+    public void buscarPagamentos() {
+        List<Pagamento> pagamentos = entityManager
+                .createQuery("select p from Pagamento p")
+                .getResultList();
 
         Assert.assertFalse(pagamentos.isEmpty());
     }
 
     @Test
-    public void incluirPagamento(){
+    public void incluirPagamentoPedido() {
         Pedido pedido = entityManager.find(Pedido.class, 1);
 
         PagamentoCartao pagamentoCartao = new PagamentoCartao();
         pagamentoCartao.setPedido(pedido);
-        pagamentoCartao.setStatus(StatusPagamento.RECEBIDO);
+        pagamentoCartao.setStatus(StatusPagamento.PROCESSANDO);
         pagamentoCartao.setNumeroCartao("123");
 
         entityManager.getTransaction().begin();
@@ -50,7 +52,5 @@ public class HerancaTest extends EntityManagerTest {
 
         Pedido pedidoVerificacao = entityManager.find(Pedido.class, pedido.getId());
         Assert.assertNotNull(pedidoVerificacao.getPagamento());
-
     }
-
 }

@@ -5,11 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/ddl/DDLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/MapsIdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/kindle.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Atributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Atributo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EntidadeBaseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedidoId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/CallbacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/CallbacksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ContextoDePersistenciaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ContextoDePersistenciaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/EstadosECicloDeVidaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/EstadosECicloDeVidaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ListenersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/conhecendoEntityManager/ListenersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/ddl/DDLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/ddl/DDLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/PrimeiroCrudTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/PrimeiroCrudTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ChaveCompostaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ChaveCompostaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/ElementCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/HerancaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/HerancaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/PropriedadesTransientesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/PropriedadesTransientesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SalvandoArquivosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SecondaryTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentoavancao/SecondaryTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/EstrategiaChavePrimariaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/EstrategiaChavePrimariaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeandoEnumeracoesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/AutoRelacionamentoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/AutoRelacionamentoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToManyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoOneToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/foto-kindle.jpg" beforeDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +123,7 @@
       <recent name="com.algaworks.ecommerce.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DDLTest">
+  <component name="RunManager" selected="JUnit.DDLTest.gerarDDL">
     <configuration name="DDLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -100,6 +135,22 @@
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.ddl" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.ddl.DDLTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDLTest.gerarDDL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.ddl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.ddl" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.ddl.DDLTest" />
+      <option name="METHOD_NAME" value="gerarDDL" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,29 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondaryTableTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.SecondaryTableTest" />
-      <option name="METHOD_NAME" value="salvarItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DDLTest.gerarDDL" />
         <item itemvalue="JUnit.DDLTest" />
         <item itemvalue="JUnit.HerancaTest" />
         <item itemvalue="JUnit.HerancaTest.incluirPagamento" />
         <item itemvalue="JUnit.HerancaTest.salvarItem" />
-        <item itemvalue="JUnit.SecondaryTableTest.salvarItem" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674414423325</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add uniq constraint to Cliente, Produto and Categoria">
+      <created>1674415513199</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1674415513199</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +432,7 @@
     <MESSAGE value="add HerancaTest to extends all id's class" />
     <MESSAGE value="add SingleTable to Pagamento" />
     <MESSAGE value="edit PagamentoBoleto and PagamentoCartao Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit PagamentoBoleto and PagamentoCartao Class" />
+    <MESSAGE value="add uniq constraint to Cliente, Produto and Categoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="add uniq constraint to Cliente, Produto and Categoria" />
   </component>
 </project>

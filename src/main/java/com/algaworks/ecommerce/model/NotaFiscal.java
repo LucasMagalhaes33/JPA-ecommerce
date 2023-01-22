@@ -12,7 +12,8 @@ import java.util.Date;
 @Setter
 @Entity
 @Table(name = "nota_fiscal")
-public class NotaFiscal extends EntidadeBaseInteger{
+public class NotaFiscal extends EntidadeBaseInteger {
+
     @MapsId
     @OneToOne(optional = false)
     @JoinColumn(name = "pedido_id")
@@ -21,9 +22,10 @@ public class NotaFiscal extends EntidadeBaseInteger{
 //            inverseJoinColumns = @JoinColumn(name = "pedido_id", unique = true))
     private Pedido pedido;
 
+    @Column(nullable = false)
     @Lob
     private byte[] xml;
 
-    @Column(name = "data_emissao")
+    @Column(name = "data_emissao", nullable = false)
     private Date dataEmissao;
 }
