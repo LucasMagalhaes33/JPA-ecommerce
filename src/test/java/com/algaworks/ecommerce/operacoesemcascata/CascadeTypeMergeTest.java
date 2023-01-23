@@ -13,6 +13,32 @@ import java.util.Arrays;
 public class CascadeTypeMergeTest extends EntityManagerTest {
 
     //@Test
+    public void atualizarProdutoComCategoria(){
+        Produto produto = new Produto();
+
+        produto.setId(1);
+        produto.setDataUltimaAtualizacao(LocalDateTime.now());
+        produto.setPreco(new BigDecimal(500));
+        produto.setNome("Kindle");
+        produto.setDescricao("Agora com iluminação embutida");
+
+        Categoria categoria = new Categoria();
+        categoria.setId(2);
+        categoria.setNome("Tablets");
+
+        produto.setCategorias(Arrays.asList(categoria)); //CascadeType.MERGE
+
+        entityManager.getTransaction().begin();
+        entityManager.merge(categoria);
+        entityManager.getTransaction().commit();
+
+        Categoria categoriaVerificacao = entityManager.find(Categoria.class, categoria.getId());
+        Assert.assertEquals("Tablets", categoriaVerificacao.getNome());
+
+    }
+
+
+    //@Test
     public void persistirItemPedidoComPedido() {
         Cliente cliente = entityManager.find(Cliente.class, 1);
         Produto produto = entityManager.find(Produto.class, 1);

@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeMergeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeMergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeMergeTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,23 @@
       <recent name="com.algaworks.ecommerce.relacionamentos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CascadeTypeMergeTest.persistirPedidoComItemPedido">
+  <component name="RunManager" selected="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido">
+    <configuration name="CascadeTypeMergeTest.atualizarProdutoComCategoria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.operacoesemcascata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.operacoesemcascata" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypeMergeTest" />
+      <option name="METHOD_NAME" value="atualizarProdutoComCategoria" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CascadeTypeMergeTest.persistirItemPedidoComPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -127,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CascadeTypePersistTest.persistirItemPedidoComPedidosSemCascade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CascadeTypeRemoveTest.removerItemPedidoEPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +149,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.operacoesemcascata" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypePersistTest" />
-      <option name="METHOD_NAME" value="persistirItemPedidoComPedidosSemCascade" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypeRemoveTest" />
+      <option name="METHOD_NAME" value="removerItemPedidoEPedido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CascadeTypePersistTest.persistirPedidoComCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CascadeTypeRemoveTest.removerPedidoEItens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -152,24 +165,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.operacoesemcascata" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypePersistTest" />
-      <option name="METHOD_NAME" value="persistirPedidoComCliente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CascadeTypePersistTest.persistirProdutoComCategoria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.operacoesemcascata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.operacoesemcascata" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypePersistTest" />
-      <option name="METHOD_NAME" value="persistirProdutoComCategoria" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypeRemoveTest" />
+      <option name="METHOD_NAME" value="removerPedidoEItens" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CascadeTypeRemoveTest.removerItemPedidoEPedido" />
+        <item itemvalue="JUnit.CascadeTypeRemoveTest.removerPedidoEItens" />
+        <item itemvalue="JUnit.CascadeTypeMergeTest.atualizarProdutoComCategoria" />
         <item itemvalue="JUnit.CascadeTypeMergeTest.persistirPedidoComItemPedido" />
         <item itemvalue="JUnit.CascadeTypeMergeTest.persistirItemPedidoComPedido" />
-        <item itemvalue="JUnit.CascadeTypePersistTest.persistirProdutoComCategoria" />
-        <item itemvalue="JUnit.CascadeTypePersistTest.persistirItemPedidoComPedidosSemCascade" />
-        <item itemvalue="JUnit.CascadeTypePersistTest.persistirPedidoComCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674486366139</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add CascadeTyp.MERGE to ItemPedido">
+      <created>1674492306011</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674492306011</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mapping id's with type IDENTITY" />
     <MESSAGE value="adding relation ManyToOne at Pedido" />
     <MESSAGE value="adding relation ManyToOne at Classes" />
     <MESSAGE value="adding relation ManyToMany at Classes Produto e Categoria" />
@@ -451,6 +454,7 @@
     <MESSAGE value="generate database through script then metadata" />
     <MESSAGE value="independent classes to export ddl" />
     <MESSAGE value="test CascadeTypePersistTest to Pedido, Cliente and ItemPedido" />
-    <option name="LAST_COMMIT_MESSAGE" value="test CascadeTypePersistTest to Pedido, Cliente and ItemPedido" />
+    <MESSAGE value="add CascadeTyp.MERGE to ItemPedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CascadeTyp.MERGE to ItemPedido" />
   </component>
 </project>
