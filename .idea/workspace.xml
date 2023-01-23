@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeMergeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypePersistTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,36 +87,42 @@
       <recent name="C:\Users\Lucas\Documents\algaworks-ecommerce\src\main\java\com\algaworks\ecommerce\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algaworks.ecommerce.operacoesemcascata" />
       <recent name="com.algaworks.ecommerce.mapeamentoavancao" />
       <recent name="com.algaworks.ecommerce.mapeamentoavancado" />
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
       <recent name="com.algaworks.ecommerce.relacionamentos" />
-      <recent name="com.algaworks.ecommerce.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CascadeTypePersistTest.persistirItemPedidoComPedidosSemCascade">
-    <configuration name="ExecutarDDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.util.ExecutarDDL" />
+  <component name="RunManager" selected="JUnit.CascadeTypeMergeTest.persistirPedidoComItemPedido">
+    <configuration name="CascadeTypeMergeTest.persistirItemPedidoComPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.util.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.operacoesemcascata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.operacoesemcascata" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypeMergeTest" />
+      <option name="METHOD_NAME" value="persistirItemPedidoComPedido" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExportarDDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.util.ExportarDDL" />
+    <configuration name="CascadeTypeMergeTest.persistirPedidoComItemPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.util.*" />
+          <option name="PATTERN" value="com.algaworks.ecommerce.operacoesemcascata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.operacoesemcascata" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypeMergeTest" />
+      <option name="METHOD_NAME" value="persistirPedidoComItemPedido" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CascadeTypePersistTest.persistirPedidoComItens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CascadeTypePersistTest.persistirProdutoComCategoria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -159,7 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.operacoesemcascata" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.operacoesemcascata.CascadeTypePersistTest" />
-      <option name="METHOD_NAME" value="persistirPedidoComItens" />
+      <option name="METHOD_NAME" value="persistirProdutoComCategoria" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CascadeTypeMergeTest.persistirPedidoComItemPedido" />
+        <item itemvalue="JUnit.CascadeTypeMergeTest.persistirItemPedidoComPedido" />
+        <item itemvalue="JUnit.CascadeTypePersistTest.persistirProdutoComCategoria" />
         <item itemvalue="JUnit.CascadeTypePersistTest.persistirItemPedidoComPedidosSemCascade" />
         <item itemvalue="JUnit.CascadeTypePersistTest.persistirPedidoComCliente" />
-        <item itemvalue="JUnit.CascadeTypePersistTest.persistirPedidoComItens" />
-        <item itemvalue="Application.ExportarDDL" />
-        <item itemvalue="Application.ExecutarDDL" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674483587597</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="test CascadeTypePersistTest to Pedido, Cliente and ItemPedido">
+      <created>1674486366139</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1674486366139</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test sequence table" />
     <MESSAGE value="mapping id's with type IDENTITY" />
     <MESSAGE value="adding relation ManyToOne at Pedido" />
     <MESSAGE value="adding relation ManyToOne at Classes" />
@@ -434,6 +450,7 @@
     <MESSAGE value="add constrainsts about foreign keys to all classes at ForeignTable" />
     <MESSAGE value="generate database through script then metadata" />
     <MESSAGE value="independent classes to export ddl" />
-    <option name="LAST_COMMIT_MESSAGE" value="independent classes to export ddl" />
+    <MESSAGE value="test CascadeTypePersistTest to Pedido, Cliente and ItemPedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="test CascadeTypePersistTest to Pedido, Cliente and ItemPedido" />
   </component>
 </project>

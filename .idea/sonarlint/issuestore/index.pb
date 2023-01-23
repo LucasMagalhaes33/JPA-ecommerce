@@ -43,8 +43,6 @@ Ssrc/test/java/com/algaworks/ecommerce/iniciandocomjpa/ConsultandoRegistrosTest.
 Osrc/test/java/com/algaworks/ecommerce/mapeamentoavancao/DetalhesColumnTest.java,8\b\8b72947d86b0b4a1eaf787e6164436531aac74ec
 ˆ
 Xsrc/test/java/com/algaworks/ecommerce/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java,2\2\2289331655d7851a22541fc5202a708fb084fff6
-l
-<src/test/java/com/algaworks/ecommerce/EntityManagerTest.java,a\3\a38649c78c35c6c15529fe201e889ad3fdef19de
 †
 Vsrc/test/java/com/algaworks/ecommerce/relacionamentos/RelacionamentoManyToOneTest.java,2\6\2617bb60d37b0a371605fcf01a0834ab51c57bcb
 x
@@ -99,13 +97,9 @@ l
 <src/main/java/com/algaworks/ecommerce/model/SexoCliente.java,b\9\b9b011ba8c2a3a1d2056d41d6558e261cfb04210
 h
 8src/main/java/com/algaworks/ecommerce/model/Estoque.java,0\1\01b74b767c3abf50ca011beee6542a0fbb9bccc6
-j
-:src/main/java/com/algaworks/ecommerce/model/Categoria.java,b\a\ba2cf89026347110547f876bdd28fa41cdc7acab
 k
 ;src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java,c\2\c28384952daf2c6e4a323413cb6c2785aa4a5f4b
 j
 :src/main/java/com/algaworks/ecommerce/model/Pagamento.java,f\1\f1ed35d049665bc4b8ef2aa53bf265de15b01129
-h
-8src/main/java/com/algaworks/ecommerce/model/Produto.java,f\9\f9f72a877f35dc0cc2c588e0d02efaf8703a19a6
 h
 8src/main/java/com/algaworks/ecommerce/model/Cliente.java,2\c\2cdd1e14781c3677ee9eed4a4eff84ce8293303e
