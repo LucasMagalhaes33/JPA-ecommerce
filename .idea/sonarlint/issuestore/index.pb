@@ -97,12 +97,8 @@ i
 9src/main/java/com/algaworks/ecommerce/model/Atributo.java,f\b\fb6f551c111220586abe6501c1d891d0e253167a
 l
 <src/main/java/com/algaworks/ecommerce/model/SexoCliente.java,b\9\b9b011ba8c2a3a1d2056d41d6558e261cfb04210
-g
-7src/main/java/com/algaworks/ecommerce/model/Pedido.java,d\9\d9d078bf4c0f3b4084e132b8e7009dc7f6b72b55
 h
 8src/main/java/com/algaworks/ecommerce/model/Estoque.java,0\1\01b74b767c3abf50ca011beee6542a0fbb9bccc6
-k
-;src/main/java/com/algaworks/ecommerce/model/ItemPedido.java,3\d\3dd050fd4d9cbafb88eb8bf33f5583031ff02e5e
 j
 :src/main/java/com/algaworks/ecommerce/model/Categoria.java,b\a\ba2cf89026347110547f876bdd28fa41cdc7acab
 k
