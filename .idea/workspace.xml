@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression return project from result">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/dto/ProdutoDTO.java" afterDir="false" />
+    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression return project DTO result">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <recent name="com.algaworks.ecommerce.relacionamentos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressoesCondicionaisTest.projetarNoDTO">
+  <component name="RunManager" selected="JUnit.JoinTest.fazerJoin">
     <configuration name="ExpressoesCondicionaisTest.projetarNoDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
@@ -154,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressoesCondicionaisTest.usarIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JoinTest.fazerJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +163,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.ExpressoesCondicionaisTest" />
-      <option name="METHOD_NAME" value="usarIsNull" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.JoinTest" />
+      <option name="METHOD_NAME" value="fazerJoin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JoinTest.fazerJoin" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.projetarNoDTO" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.projetarOResultado" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.selecionarUmAtributoParaRetorno" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarIsEmpty" />
-        <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674569595176</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="test jpql expression return project DTO result">
+      <created>1674570587168</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674570587168</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding relation OneToOne at Classes NotaFiscal e Pedido" />
     <MESSAGE value="adding optionals to all classes" />
     <MESSAGE value="adding callbacks to Class Pedido" />
     <MESSAGE value="add column atributes to dates" />
@@ -488,6 +494,7 @@
     <MESSAGE value="test jpql expression 'is empty' and 'is null'" />
     <MESSAGE value="test jpql expression return atribute" />
     <MESSAGE value="test jpql expression return project from result" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression return project from result" />
+    <MESSAGE value="test jpql expression return project DTO result" />
+    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression return project DTO result" />
   </component>
 </project>
