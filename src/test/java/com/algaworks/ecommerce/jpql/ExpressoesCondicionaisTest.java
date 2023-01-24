@@ -1,6 +1,8 @@
 package com.algaworks.ecommerce.jpql;
 
 import com.algaworks.ecommerce.EntityManagerTest;
+import com.algaworks.ecommerce.model.Cliente;
+import com.algaworks.ecommerce.model.Produto;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -43,6 +45,25 @@ public class ExpressoesCondicionaisTest extends EntityManagerTest {
 
         List<Object[]> lista = typedQuery.getResultList();
         Assert.assertFalse(lista.isEmpty());
+    }
+
+    @Test
+    public void selecionarUmAtributoParaRetorno() {
+
+        String jpql = "select p.nome from Produto p";
+
+        TypedQuery<String> typedQuery = entityManager.createQuery(jpql, String.class);
+
+
+        List<String> lista = typedQuery.getResultList();
+        Assert.assertTrue(String.class.equals(lista.get(0).getClass()));
+
+        String jpqlCliente = "select p.cliente from Pedido p";
+
+        TypedQuery<Cliente> typedQueryCliente = entityManager.createQuery(jpqlCliente, Cliente.class);
+
+        List<Cliente> listaCliente = typedQueryCliente.getResultList();
+        Assert.assertTrue(Cliente.class.equals(listaCliente.get(0).getClass()));
     }
 
 }
