@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression 'is empty' and 'is null'">
+    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression return atribute">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" afterDir="false" />
     </list>
@@ -88,7 +88,23 @@
       <recent name="com.algaworks.ecommerce.relacionamentos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressoesCondicionaisTest.selecionarUmAtributoParaRetorno">
+  <component name="RunManager" selected="JUnit.ExpressoesCondicionaisTest.projetarOResultado">
+    <configuration name="ExpressoesCondicionaisTest.projetarOResultado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPA-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.ExpressoesCondicionaisTest" />
+      <option name="METHOD_NAME" value="projetarOResultado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExpressoesCondicionaisTest.selecionarUmAtributoParaRetorno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
@@ -153,29 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HerancaTest.salvarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.mapeamentoavancao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.mapeamentoavancao" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.mapeamentoavancao.HerancaTest" />
-      <option name="METHOD_NAME" value="salvarCliente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpressoesCondicionaisTest.projetarOResultado" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.selecionarUmAtributoParaRetorno" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarIsEmpty" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarIsNull" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarExpressaoCondicionalLike" />
-        <item itemvalue="JUnit.HerancaTest.salvarCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674567769046</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="test jpql expression return atribute">
+      <created>1674568748604</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1674568748604</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding relation ManyToMany at Classes Produto e Categoria" />
     <MESSAGE value="adding relation OneToOne at Classes PagamentoCartao e Pedido" />
     <MESSAGE value="adding relation OneToOne at Classes NotaFiscal e Pedido" />
     <MESSAGE value="adding optionals to all classes" />
@@ -473,6 +479,7 @@
     <MESSAGE value="add CascadeTyp.MERGE to ItemPedido" />
     <MESSAGE value="test jpql expression like" />
     <MESSAGE value="test jpql expression 'is empty' and 'is null'" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression 'is empty' and 'is null'" />
+    <MESSAGE value="test jpql expression return atribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression return atribute" />
   </component>
 </project>

@@ -66,4 +66,16 @@ public class ExpressoesCondicionaisTest extends EntityManagerTest {
         Assert.assertTrue(Cliente.class.equals(listaCliente.get(0).getClass()));
     }
 
+    @Test
+    public void projetarOResultado() {
+
+        String jpql = "select id, nome from Produto";
+
+        TypedQuery<Object[]> typedQuery = entityManager.createQuery(jpql, Object[].class);
+        List<Object[]> lista = typedQuery.getResultList();
+
+        Assert.assertTrue(lista.get(0).length ==2);
+        lista.forEach(arr -> System.out.println(arr[0] + "," + arr[1]));
+    }
+
 }
