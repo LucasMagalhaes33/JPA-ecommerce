@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression return project DTO result">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" afterDir="false" />
+    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression inner join on result">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -451,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674570587168</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="test jpql expression inner join on result">
+      <created>1674572554531</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674572554531</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding optionals to all classes" />
     <MESSAGE value="adding callbacks to Class Pedido" />
     <MESSAGE value="add column atributes to dates" />
     <MESSAGE value="add IdClass to ItemPedido" />
@@ -495,6 +500,7 @@
     <MESSAGE value="test jpql expression return atribute" />
     <MESSAGE value="test jpql expression return project from result" />
     <MESSAGE value="test jpql expression return project DTO result" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression return project DTO result" />
+    <MESSAGE value="test jpql expression inner join on result" />
+    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression inner join on result" />
   </component>
 </project>
