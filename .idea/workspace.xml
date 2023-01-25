@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test path expressions on queries">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PassandoParametroTest.java" afterDir="false" />
+    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test parameters on jpql queries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,23 @@
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassandoParametroTest.passarParametroDate">
+  <component name="RunManager" selected="JUnit.ExpressoesCondicionaisTest.usarMaiorMenor">
+    <configuration name="ExpressoesCondicionaisTest.usarMaiorMenor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPA-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.ExpressoesCondicionaisTest" />
+      <option name="METHOD_NAME" value="usarMaiorMenor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassandoParametroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
@@ -154,29 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathExpressionTest.usarPathExpressions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.PathExpressionTest" />
-      <option name="METHOD_NAME" value="usarPathExpressions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarMaiorMenor" />
         <item itemvalue="JUnit.PassandoParametroTest.passarParametroDate" />
         <item itemvalue="JUnit.PassandoParametroTest" />
         <item itemvalue="JUnit.PassandoParametroTest.passarParametro" />
         <item itemvalue="JUnit.PathExpressionTest.buscarPedidosComProdutosEspecificos" />
-        <item itemvalue="JUnit.PathExpressionTest.usarPathExpressions" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +189,7 @@
       <updated>1671555587076</updated>
       <workItem from="1674235879257" duration="1897000" />
       <workItem from="1674237944231" duration="4543000" />
-      <workItem from="1674663476663" duration="5727000" />
+      <workItem from="1674663476663" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="add embbed objects to Pedido Class">
       <created>1673569624785</created>
@@ -480,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674665065813</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="test parameters on jpql queries">
+      <created>1674669732793</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1674669732793</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add EmbbedId to get two fk_id at ItemPedido" />
     <MESSAGE value="add Transient to Cliente" />
     <MESSAGE value="add Atributo table to Produto" />
     <MESSAGE value="add Map atribute to Cliente" />
@@ -524,6 +528,18 @@
     <MESSAGE value="test jpql expression left join on result" />
     <MESSAGE value="test jpql expression join fetch on result" />
     <MESSAGE value="test path expressions on queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="test path expressions on queries" />
+    <MESSAGE value="test parameters on jpql queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="test parameters on jpql queries" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
