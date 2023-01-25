@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression left join on result">
+    <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test jpql expression join fetch on result">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/JoinTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,14 +81,14 @@
       <recent name="C:\Users\Lucas\Documents\algaworks-ecommerce\src\main\java\com\algaworks\ecommerce\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algaworks.ecommerce.jpql" />
       <recent name="com.algaworks.ecommerce.operacoesemcascata" />
       <recent name="com.algaworks.ecommerce.mapeamentoavancao" />
       <recent name="com.algaworks.ecommerce.mapeamentoavancado" />
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
-      <recent name="com.algaworks.ecommerce.relacionamentos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JoinTest.usarJoinFetch">
+  <component name="RunManager" selected="JUnit.PathExpressionTest.usarPathExpressions">
     <configuration name="ExpressoesCondicionaisTest.projetarNoDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
@@ -116,22 +116,6 @@
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.ExpressoesCondicionaisTest" />
       <option name="METHOD_NAME" value="projetarOResultado" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressoesCondicionaisTest.selecionarUmAtributoParaRetorno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.ExpressoesCondicionaisTest" />
-      <option name="METHOD_NAME" value="selecionarUmAtributoParaRetorno" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,13 +153,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PathExpressionTest.usarPathExpressions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPA-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.PathExpressionTest" />
+      <option name="METHOD_NAME" value="usarPathExpressions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PathExpressionTest.usarPathExpressions" />
         <item itemvalue="JUnit.JoinTest.usarJoinFetch" />
         <item itemvalue="JUnit.JoinTest.fazerJoin" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.projetarNoDTO" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.projetarOResultado" />
-        <item itemvalue="JUnit.ExpressoesCondicionaisTest.selecionarUmAtributoParaRetorno" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +190,7 @@
       <updated>1671555587076</updated>
       <workItem from="1674235879257" duration="1897000" />
       <workItem from="1674237944231" duration="4543000" />
-      <workItem from="1674663476663" duration="972000" />
+      <workItem from="1674663476663" duration="1534000" />
     </task>
     <task id="LOCAL-00001" summary="add embbed objects to Pedido Class">
       <created>1673569624785</created>
@@ -465,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674576006364</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="test jpql expression join fetch on result">
+      <created>1674664606593</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1674664606593</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add column atributes to dates" />
     <MESSAGE value="add IdClass to ItemPedido" />
     <MESSAGE value="add EmbbedId to get two fk_id at ItemPedido" />
     <MESSAGE value="add Transient to Cliente" />
@@ -509,6 +515,7 @@
     <MESSAGE value="test jpql expression return project DTO result" />
     <MESSAGE value="test jpql expression inner join on result" />
     <MESSAGE value="test jpql expression left join on result" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression left join on result" />
+    <MESSAGE value="test jpql expression join fetch on result" />
+    <option name="LAST_COMMIT_MESSAGE" value="test jpql expression join fetch on result" />
   </component>
 </project>
