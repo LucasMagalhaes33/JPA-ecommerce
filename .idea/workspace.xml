@@ -88,23 +88,7 @@
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FuncoesTest.aplicarFuncaoNumero">
-    <configuration name="BasicoJPQLTest.ordenarResultados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.BasicoJPQLTest" />
-      <option name="METHOD_NAME" value="ordenarResultados" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FuncoesTest.aplicarFuncaoColecao">
     <configuration name="FuncoesTest.aplicarFuncao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -116,6 +100,22 @@
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
       <option name="METHOD_NAME" value="aplicarFuncao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncoesTest.aplicarFuncaoColecao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
+      <option name="METHOD_NAME" value="aplicarFuncaoColecao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoColecao" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNumero" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoData" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncao" />
         <item itemvalue="JUnit.PaginacaoJPQLTest.ordenarResultados" />
-        <item itemvalue="JUnit.BasicoJPQLTest.ordenarResultados" />
       </list>
     </recent_temporary>
   </component>
