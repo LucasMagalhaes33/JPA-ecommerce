@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/FuncoesStringsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/FuncoesStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FuncoesStringsTest.aplicarFuncao">
+  <component name="RunManager" selected="JUnit.FuncoesTest.aplicarFuncaoNumero">
     <configuration name="BasicoJPQLTest.ordenarResultados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -105,23 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressoesCondicionaisTest.usarMaiorMenor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.ExpressoesCondicionaisTest" />
-      <option name="METHOD_NAME" value="usarMaiorMenor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuncoesStringsTest.aplicarFuncao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncoesTest.aplicarFuncao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +114,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesStringsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
       <option name="METHOD_NAME" value="aplicarFuncao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncoesTest.aplicarFuncaoData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
+      <option name="METHOD_NAME" value="aplicarFuncaoData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncoesTest.aplicarFuncaoNumero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
+      <option name="METHOD_NAME" value="aplicarFuncaoNumero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,29 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathExpressionTest.buscarPedidosComProdutoEspecifico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.PathExpressionTest" />
-      <option name="METHOD_NAME" value="buscarPedidosComProdutoEspecifico" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FuncoesStringsTest.aplicarFuncao" />
+        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNumero" />
+        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoData" />
+        <item itemvalue="JUnit.FuncoesTest.aplicarFuncao" />
         <item itemvalue="JUnit.PaginacaoJPQLTest.ordenarResultados" />
         <item itemvalue="JUnit.BasicoJPQLTest.ordenarResultados" />
-        <item itemvalue="JUnit.PathExpressionTest.buscarPedidosComProdutoEspecifico" />
-        <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarMaiorMenor" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674827335248</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="test String methods at JPA">
+      <created>1674828647905</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1674828647905</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add SecondaryTable at Cliente" />
     <MESSAGE value="add HerancaTest to extends all id's class" />
     <MESSAGE value="add SingleTable to Pagamento" />
     <MESSAGE value="edit PagamentoBoleto and PagamentoCartao Class" />
@@ -551,7 +557,8 @@
     <MESSAGE value="test jpa methods" />
     <MESSAGE value="test order by at nome asc" />
     <MESSAGE value="test pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="test pagination" />
+    <MESSAGE value="test String methods at JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="test String methods at JPA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
