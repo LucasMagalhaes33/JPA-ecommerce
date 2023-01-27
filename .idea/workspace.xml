@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PaginacaoJPQLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BasicoJPQLTest.ordenarResultados">
+  <component name="RunManager" selected="JUnit.PaginacaoJPQLTest.ordenarResultados">
     <configuration name="BasicoJPQLTest.ordenarResultados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -121,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassandoParametroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
+    <configuration name="PaginacaoJPQLTest.ordenarResultados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
@@ -130,8 +131,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.PassandoParametroTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.PaginacaoJPQLTest" />
+      <option name="METHOD_NAME" value="ordenarResultados" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaginacaoJPQLTest.ordenarResultados" />
         <item itemvalue="JUnit.BasicoJPQLTest.ordenarResultados" />
         <item itemvalue="JUnit.PathExpressionTest.buscarPedidosComProdutoEspecifico" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarMaiorMenor" />
         <item itemvalue="JUnit.PassandoParametroTest.passarParametroDate" />
-        <item itemvalue="JUnit.PassandoParametroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674826337213</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="test order by at nome asc">
+      <created>1674826747788</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1674826747788</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Atributo table to Produto" />
     <MESSAGE value="add Map atribute to Cliente" />
     <MESSAGE value="add SecondaryTable at Cliente" />
     <MESSAGE value="add HerancaTest to extends all id's class" />
@@ -536,7 +544,8 @@
     <MESSAGE value="test path expressions on queries" />
     <MESSAGE value="test parameters on jpql queries" />
     <MESSAGE value="test jpa methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jpa methods" />
+    <MESSAGE value="test order by at nome asc" />
+    <option name="LAST_COMMIT_MESSAGE" value="test order by at nome asc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
