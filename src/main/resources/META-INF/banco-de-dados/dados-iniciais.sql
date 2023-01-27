@@ -20,3 +20,5 @@ insert into nota_fiscal (pedido_id, xml, data_emissao) values (2, '<xml />', sys
 
 insert into categoria (id, nome) values (1, 'Eletrodomésticos');
 insert into categoria (id, nome) values (2, 'Livros');
+
+insert into produto_categoria (produto_id, categoria_id) values (1, 2);

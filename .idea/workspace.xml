@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="test parameters on jpql queries">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/ExpressoesCondicionaisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PathExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/operacoesemcascata/CascadeTypeRemoveTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +93,7 @@
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExpressoesCondicionaisTest.usarMaiorMenor">
+  <component name="RunManager" selected="JUnit.PathExpressionTest.buscarPedidosComProdutoEspecifico">
     <configuration name="ExpressoesCondicionaisTest.usarMaiorMenor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPA-ecommerce" />
       <extension name="coverage">
@@ -152,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathExpressionTest.buscarPedidosComProdutosEspecificos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPA-ecommerce" />
+    <configuration name="PathExpressionTest.buscarPedidosComProdutoEspecifico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
@@ -162,7 +167,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.PathExpressionTest" />
-      <option name="METHOD_NAME" value="buscarPedidosComProdutosEspecificos" />
+      <option name="METHOD_NAME" value="buscarPedidosComProdutoEspecifico" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PathExpressionTest.buscarPedidosComProdutoEspecifico" />
         <item itemvalue="JUnit.ExpressoesCondicionaisTest.usarMaiorMenor" />
         <item itemvalue="JUnit.PassandoParametroTest.passarParametroDate" />
         <item itemvalue="JUnit.PassandoParametroTest" />
         <item itemvalue="JUnit.PassandoParametroTest.passarParametro" />
-        <item itemvalue="JUnit.PathExpressionTest.buscarPedidosComProdutosEspecificos" />
       </list>
     </recent_temporary>
   </component>

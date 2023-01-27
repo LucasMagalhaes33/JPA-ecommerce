@@ -35,7 +35,7 @@ public class Produto extends EntidadeBaseInteger {
     @Lob
     private byte[] foto;
 
-    @ManyToMany(cascade = CascadeType.PERSIST)
+    @ManyToMany
     @JoinTable(name = "produto_categoria",
             joinColumns = @JoinColumn(name = "produto_id", nullable = false,
                     foreignKey = @ForeignKey(name = "fk_produto_categoria_produto")),
