@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/GroupByTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-criacao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-criacao.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-remocao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-remocao.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PaginacaoJPQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PaginacaoJPQLTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +95,8 @@
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FuncoesTest.aplicarFuncaoNativas">
-    <configuration name="FuncoesTest.aplicarFuncao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GroupByTest.agruparResultado">
+    <configuration name="FuncoesTest.aplicarFuncaoAgregacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +106,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncao" />
+      <option name="METHOD_NAME" value="aplicarFuncaoAgregacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,22 +123,6 @@
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
       <option name="METHOD_NAME" value="aplicarFuncaoColecao" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuncoesTest.aplicarFuncaoData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algaworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncaoData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,13 +160,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupByTest.agruparResultado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algaworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.jpql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.GroupByTest" />
+      <option name="METHOD_NAME" value="agruparResultado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupByTest.agruparResultado" />
+        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoAgregacao" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNativas" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoColecao" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNumero" />
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoData" />
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncao" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674840250099</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="test JPA native functions">
+      <created>1674840981964</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1674840981964</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +561,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="edit PagamentoBoleto and PagamentoCartao Class" />
     <MESSAGE value="add uniq constraint to Cliente, Produto and Categoria" />
     <MESSAGE value="add constrainsts to all classes" />
     <MESSAGE value="add constrainsts about foreign keys to all classes" />
@@ -575,7 +585,8 @@
     <MESSAGE value="test String methods at JPA" />
     <MESSAGE value="test JPA numbers methods functions" />
     <MESSAGE value="test JPA colections methods functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="test JPA colections methods functions" />
+    <MESSAGE value="test JPA native functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="test JPA native functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
