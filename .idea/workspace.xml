@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc0349cd-48ad-4e10-9126-d8d98fd6a5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/GroupByTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-criacao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-criacao.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-remocao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/script-remocao.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/FuncoesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PaginacaoJPQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/PaginacaoJPQLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/GroupByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/jpql/GroupByTest.java" afterDir="false" />
     </list>
     <list id="d5f15400-dcc8-4be1-b31a-7885881a8c6c" name="nao enviar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +88,7 @@
       <recent name="com.algaworks.ecommerce.conhecendoEntityManager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GroupByTest.agruparResultado">
+  <component name="RunManager" selected="JUnit.GroupByTest.agruparEFiltrarResultado">
     <configuration name="FuncoesTest.aplicarFuncaoAgregacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
@@ -144,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncoesTest.aplicarFuncaoNumero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupByTest.agruparEFiltrarResultado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algaworks-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +146,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.jpql" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.FuncoesTest" />
-      <option name="METHOD_NAME" value="aplicarFuncaoNumero" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.jpql.GroupByTest" />
+      <option name="METHOD_NAME" value="agruparEFiltrarResultado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupByTest.agruparEFiltrarResultado" />
         <item itemvalue="JUnit.GroupByTest.agruparResultado" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoAgregacao" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNativas" />
         <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoColecao" />
-        <item itemvalue="JUnit.FuncoesTest.aplicarFuncaoNumero" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +191,6 @@
       <workItem from="1674235879257" duration="1897000" />
       <workItem from="1674237944231" duration="4543000" />
       <workItem from="1674663476663" duration="7835000" />
-    </task>
-    <task id="LOCAL-00001" summary="add embbed objects to Pedido Class">
-      <created>1673569624785</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673569624785</updated>
     </task>
     <task id="LOCAL-00002" summary="test simple mapping">
       <created>1673620110374</created>
@@ -542,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674840981964</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="test JPA group by queries">
+      <created>1674844798339</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1674844798340</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add uniq constraint to Cliente, Produto and Categoria" />
     <MESSAGE value="add constrainsts to all classes" />
     <MESSAGE value="add constrainsts about foreign keys to all classes" />
     <MESSAGE value="add constrainsts about foreign keys to all classes at ForeignTable" />
@@ -586,7 +578,8 @@
     <MESSAGE value="test JPA numbers methods functions" />
     <MESSAGE value="test JPA colections methods functions" />
     <MESSAGE value="test JPA native functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="test JPA native functions" />
+    <MESSAGE value="test JPA group by queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="test JPA group by queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
