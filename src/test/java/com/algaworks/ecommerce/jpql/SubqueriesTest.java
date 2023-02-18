@@ -16,9 +16,13 @@ public class SubqueriesTest extends EntityManagerTest {
 
     @Test
     public void pesquisarComAll() {
-        String jpql = "select p from Produto p " +
-                " where exists " +
-                " (select 1 from ItemPedido where produto = p and precoProduto <> p.preco)";
+        // Todos os produtos não foram vendidos mais depois que encareceram
+         String jpql = "select p from Produto p where " +
+                 " p.preco > ALL (select precoProduto from ItemPedido where produto = p ) ";
+
+        //Todos os produtos que sempre foram vendidos pelo preço atual
+        //String jpql = "select p from Produto p where " +
+        //        " p.preco = ALL (select precoProduto from ItemPedido where produto = p) ";
 
         TypedQuery<Produto> typedQuery = entityManager.createQuery(jpql, Produto.class);
 
