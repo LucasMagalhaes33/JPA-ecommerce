@@ -15,7 +15,26 @@ import java.util.List;
 public class SubqueriesTest extends EntityManagerTest {
 
     @Test
+    public void exercicioComAll() {
+        // Todos os produtos que sempre foram vendidos pelo mesmo preço
+        // Usar precoProduto de ItemPedido
+        // distinct
+        // join com tabela de produto
+        String jpql = "select distinct p from ItemPedido ip join ip.produto p where " +
+                " ip.precoProduto = ALL (select precoProduto from ItemPedido where produto = p and id <> ip.id) ";
+
+        TypedQuery<Produto> typedQuery = entityManager.createQuery(jpql, Produto.class);
+
+        List<Produto> lista = typedQuery.getResultList();
+        Assert.assertFalse(lista.isEmpty());
+
+        lista.forEach(obj -> System.out.println("ID: " + obj.getId()));
+    }
+
+    @Test
     public void pesquisarComAny() {
+        //podemos usar o any e o some
+
         // Todos os produtos não foram vendidos mais depois que encareceram
         String jpql = "select p from Produto p where " +
                 " p.preco <> ANY (select precoProduto from ItemPedido where produto = p ) ";
