@@ -16,47 +16,40 @@ import java.util.List;
 public class ExpressoesCondicionaisTest extends EntityManagerTest {
 
     @Test
-    public void usarExpressaoIN(){
-        //Total de vendas dentre as categorias que mais vendem
-        Cliente cliente1 = new Cliente(); //entityManager.find(Cliente.class, 1);
+    public void usarExpressaoIN() {
+        Cliente cliente1 = new Cliente(); // entityManager.find(Cliente.class, 1);
         cliente1.setId(1);
 
-        Cliente cliente2 = entityManager.find(Cliente.class, 2);
+        Cliente cliente2 = new Cliente(); // entityManager.find(Cliente.class, 2);
         cliente2.setId(2);
 
         List<Cliente> clientes = Arrays.asList(cliente1, cliente2);
 
-        String jpql = "select p from Pedido p where p.cliente in (:lista)";
+        String jpql = "select p from Pedido p where p.cliente in (:clientes)";
 
         TypedQuery<Pedido> typedQuery = entityManager.createQuery(jpql, Pedido.class);
-        typedQuery.setParameter("lista", clientes);
+        typedQuery.setParameter("clientes", clientes);
 
         List<Pedido> lista = typedQuery.getResultList();
-
         Assert.assertFalse(lista.isEmpty());
-
     }
 
     @Test
-    public void usarExpressaoCase(){
-        //Total de vendas dentre as categorias que mais vendem
-
+    public void usarExpressaoCase() {
         String jpql = "select p.id, " +
                 " case type(p.pagamento) " +
-                "   when PagamentoBoleto then 'pago com boleto' " +
-                "   when PagamentoCartao then 'pago com cartão' " +
-                "   else 'Não pago ainda' " +
+                "       when PagamentoBoleto then 'Pago com boleto' " +
+                "       when PagamentoCartao then 'Pago com cartão' " +
+                "       else 'Não pago ainda.' " +
                 " end " +
-                " from Pedido p ";
+                " from Pedido p";
 
         TypedQuery<Object[]> typedQuery = entityManager.createQuery(jpql, Object[].class);
 
         List<Object[]> lista = typedQuery.getResultList();
-
         Assert.assertFalse(lista.isEmpty());
 
         lista.forEach(arr -> System.out.println(arr[0] + ", " + arr[1]));
-
     }
 
     @Test

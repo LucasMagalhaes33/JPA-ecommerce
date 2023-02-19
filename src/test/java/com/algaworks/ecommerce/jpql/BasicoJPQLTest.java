@@ -15,7 +15,7 @@ public class BasicoJPQLTest extends EntityManagerTest {
 
     @Test
     public void usarDistinct() {
-        String jpql = " select distinct p from Pedido p " +
+        String jpql = "select distinct p from Pedido p " +
                 " join p.itens i join i.produto pro " +
                 " where pro.id in (1, 2, 3, 4) ";
 

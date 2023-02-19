@@ -10,9 +10,8 @@ import java.util.List;
 public class GroupByTest extends EntityManagerTest {
 
     @Test
-    public void condicionarAgrupamentoComHaving(){
-        //Total de vendas dentre as categorias que mais vendem
-
+    public void condicionarAgrupamentoComHaving() {
+//         Total de vendas dentre as categorias que mais vendem.
         String jpql = "select cat.nome, sum(ip.precoProduto) from ItemPedido ip " +
                 " join ip.produto pro join pro.categorias cat " +
                 " group by cat.id " +
@@ -25,7 +24,6 @@ public class GroupByTest extends EntityManagerTest {
         Assert.assertFalse(lista.isEmpty());
 
         lista.forEach(arr -> System.out.println(arr[0] + ", " + arr[1]));
-
     }
 
     @Test
@@ -44,9 +42,9 @@ public class GroupByTest extends EntityManagerTest {
 
 //        Total de vendas por cliente
         String jpql = "select c.nome, sum(ip.precoProduto) from ItemPedido ip " +
-               " join ip.pedido p join p.cliente c join ip.pedido p " +
+                " join ip.pedido p join p.cliente c join ip.pedido p " +
                 " where year(p.dataCriacao) = year(current_date) and month(p.dataCriacao) >= (month(current_date) - 3) " +
-                 " group by c.id";
+                " group by c.id";
 
         TypedQuery<Object[]> typedQuery = entityManager.createQuery(jpql, Object[].class);
 
