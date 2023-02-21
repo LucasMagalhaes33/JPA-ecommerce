@@ -7,9 +7,48 @@ import org.junit.Test;
 
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.*;
+import java.lang.reflect.Type;
 import java.util.List;
 
 public class JoinCriteriaTest extends EntityManagerTest {
+
+    @Test
+    public void buscarPedidosComProdutosEspecifico(){
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+        CriteriaQuery<Pedido> criteriaQuery = criteriaBuilder.createQuery(Pedido.class);
+        Root<Pedido> root = criteriaQuery.from(Pedido.class);
+        Join<Pedido, ItemPedido> joinProduto = root.join("itens");
+        joinProduto.on(criteriaBuilder.equal(joinProduto.get("produto"), 1));
+
+        criteriaQuery.select(root);
+
+        TypedQuery<Pedido> typedQuery = entityManager.createQuery(criteriaQuery);
+
+        List<Pedido> pedidos = typedQuery.getResultList();
+        Assert.assertTrue(pedidos.size() == 4);
+
+    }
+
+    @Test
+    public void usarJoinFetch(){
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+        CriteriaQuery<Pedido> criteriaQuery = criteriaBuilder.createQuery(Pedido.class);
+        Root<Pedido> root = criteriaQuery.from(Pedido.class);
+
+        root.fetch("notaFiscal", JoinType.LEFT);
+        root.fetch("pagamento", JoinType.LEFT);
+        root.fetch("cliente" );
+
+        criteriaQuery.select(root);
+
+        criteriaQuery.where(criteriaBuilder.equal(root.get("id"), 1));
+
+        TypedQuery<Pedido> typedQuery = entityManager.createQuery(criteriaQuery);
+
+        Pedido pedido = typedQuery.getSingleResult();
+        Assert.assertNotNull(pedido);
+
+    }
 
     @Test
     public void fazerLeftOuterJoin(){
