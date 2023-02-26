@@ -2,8 +2,6 @@ package com.algaworks.ecommerce.jpql;
 
 import com.algaworks.ecommerce.EntityManagerTest;
 import com.algaworks.ecommerce.model.Categoria;
-import com.algaworks.ecommerce.model.Pedido;
-import com.algaworks.ecommerce.model.Produto;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -16,7 +14,7 @@ import java.util.List;
 public class AbordagemHibridaTest extends EntityManagerTest {
 
     @BeforeClass
-    public static void setUpBeforeClass(){
+    public static void setUpBeforeClass() {
         entityManagerFactory = Persistence
                 .createEntityManagerFactory("Ecommerce-PU");
 
@@ -30,11 +28,10 @@ public class AbordagemHibridaTest extends EntityManagerTest {
 
     @Test
     public void usarAbordagemHibrida(){
-        TypedQuery<Categoria> typedQuery = entityManager.createNamedQuery("Categoria.listar", Categoria.class);
+        TypedQuery<Categoria> typedQuery = entityManager
+                .createNamedQuery("Categoria.listar", Categoria.class);
 
         List<Categoria> lista = typedQuery.getResultList();
-
         Assert.assertFalse(lista.isEmpty());
     }
-
 }

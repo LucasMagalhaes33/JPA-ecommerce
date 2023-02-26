@@ -11,9 +11,9 @@ import java.util.List;
 public class DynamicQueryTest extends EntityManagerTest {
 
     @Test
-    public void executarConsultaDinamica(){
+    public void executarConsultaDinamica() {
         Produto consultado = new Produto();
-        consultado.setNome("Câmera GoPro ");
+        consultado.setNome("Câmera GoPro");
 
         List<Produto> lista = pesquisar(consultado);
 
@@ -28,21 +28,20 @@ public class DynamicQueryTest extends EntityManagerTest {
             jpql.append(" and p.nome like concat('%', :nome, '%')");
         }
 
-        if (consultado.getDataCriacao() != null) {
+        if (consultado.getDescricao() != null) {
             jpql.append(" and p.descricao like concat('%', :descricao, '%')");
         }
 
         TypedQuery<Produto> typedQuery = entityManager.createQuery(jpql.toString(), Produto.class);
 
-        if (consultado.getNome() != null){
+        if (consultado.getNome() != null) {
             typedQuery.setParameter("nome", consultado.getNome());
         }
 
-        if (consultado.getDataCriacao() != null){
+        if (consultado.getDescricao() != null) {
             typedQuery.setParameter("descricao", consultado.getDescricao());
         }
 
         return typedQuery.getResultList();
     }
-
 }
